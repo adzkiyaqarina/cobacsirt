@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1 {
+    color: white;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+h2 {
+    color: #1F2D5E;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+}
+
+img {
+    max-width: 200%;
+}
+
+.navitem {
+    font-size: 13px;
+    transition-duration: 100ms;
+}
+
+.navitem:hover {
+    font-size: 15px;
+    transition-duration: 100ms;
+}
+
+ul.items li {
+    color: white;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.report-btn {
+    background-color: #BE2033;
+}
+
+/* Tambahkan ini di resources/css/app.css atau home.css */
+.box {
+    display: -webkit-box; /* Safari */
+    display: -ms-flexbox; /* IE10+ */
+    display: flex; /* Modern browser */
+}
+  
+  .border-gradient {
+    background: -webkit-linear-gradient(to right, #ff7e5f, #feb47b); /* Safari */
+    background: -o-linear-gradient(to right, #ff7e5f, #feb47b); /* Opera */
+    background: -moz-linear-gradient(to right, #ff7e5f, #feb47b); /* Firefox */
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Standard */
+}
